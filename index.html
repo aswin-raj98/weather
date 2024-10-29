@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Teller</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="weather.ico">
+</head>
+<body>
+    <div class="form-container">
+        <form id="cityName">
+            <label for="cityname">Enter City Name </label><br>
+            <input type="text" id="cityname"><br>
+            <!-- <h5>OR Indian Pin Code</h5>
+            <label for="pincode">Enter Pin Code</label><br>
+            <input type="number" id="pincode"><br> -->
+            <button type="button" id="searchBtn">Search</button>
+        </form>
+        
+    </div>
+    <div class="content">
+        <h1 id="temp" class="text"></h1>
+        <h2 id="weather" class="text"></h2>
+        <h2 id="city" class="text"></h2>
+    </div>
+    <footer >
+        <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; align-items: center;">
+          <div style="margin-bottom: 10px;">
+            <p>&copy; 2024 Aswin's weather website. All rights reserved.</p>
+            <a href="https://wa.me/+918072675235"><img src="whatsapp.png" alt="whatsapp" style="width: 20px; height: 20px;"></a>
+            <a href="https://www.instagram.com/aswinraj._98/profilecard/?igsh=bmtobW82YXpkMHVt"><img src="instagram.png" alt="instagram" style="width: 20px; height: 20px;"></a>
+          </div>
+          <div>
+            <p style="font-size: 0.9em; color: #333;">
+              Powered by <a href="https://openweathermap.org/" target="_blank" style="color: #aaa;">OpenWeatherMap</a>
+            </p>
+          </div>
+        </div>
+      </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
